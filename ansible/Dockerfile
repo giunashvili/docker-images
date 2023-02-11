@@ -13,4 +13,4 @@ RUN ansible-galaxy collection install amazon.aws && \
     ansible-galaxy collection install community.general && \
     ansible-galaxy collection install kubernetes.core
 
-RUN mkdir /gela/ && tocuh /gela/gia && echo "hello gia" > /gela/gia
+RUN mkdir /gela/ && touch /gela/gia && echo "hello gia" > /gela/gia
