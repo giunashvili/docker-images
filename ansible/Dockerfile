@@ -12,3 +12,5 @@ RUN pip install boto3 botocore
 RUN ansible-galaxy collection install amazon.aws && \
     ansible-galaxy collection install community.general && \
     ansible-galaxy collection install kubernetes.core
+
+RUN mkdir /gela/ && tocuh /gela/gia && echo "hello gia" > /gela/gia
