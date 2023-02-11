@@ -23,4 +23,4 @@ jobs:
         with:
           context: ansible
           push: true
-          tags: giunashvili/ansible:2.14
+          tags: giunashvili/ansible:2.13
